@@ -1,0 +1,35 @@
+body {
+    background-color: darkslateblue;
+}
+
+div {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 24px;
+    color: aliceblue ;
+}
+
+hr {
+    background-color: turquoise;
+    border-radius: 25px;
+    height: 3px;
+}
+
+textarea{
+    font-style: italic;
+}
+
+#topic1 {
+    text-align: center;
+    font-size: 48px;
+    font-weight: bold;
+}
+
+#comment1 {
+    margin-left: 100px;
+    text-align: left;
+}
+
+#comment2 {
+    margin-right: 100px;
+    text-align: right;
+}

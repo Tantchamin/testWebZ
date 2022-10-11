@@ -1,0 +1,53 @@
+body {
+    background-color: aquamarine;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 24px;
+}
+
+legend {
+    font-weight: bold;
+    font-size: 48px;
+    font-style: italic;
+}
+
+fieldset {
+    background-color: aliceblue;
+    border-radius: 25px;
+    border-color: indigo;
+    border-width: 5px;
+    border-style: groove;
+}
+
+#game-container {
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-around;
+}
+
+#game-layer {
+    position: relative;
+    width: 500px;
+    height: 500px;
+
+    border: 5px solid black;
+    background-color: aliceblue;
+}
+
+.square {
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    border: 3px solid black;
+}
+
+.red {
+    background-color: red;
+}
+
+.blue {
+    background-color: blue;
+}
+
+.green {
+    background-color: green;
+}
